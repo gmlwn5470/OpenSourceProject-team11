@@ -216,7 +216,7 @@ $(document).ready(function(){
 				<a href="#"><img src="emo/images/page_right.png"></a>
 				<!-- 글쓰기 버튼 만들 공간 -->
 				<p>
-					<a href="writeui.do"> 글 쓰기 </a>
+					<input onclick="location.href='writeui.do'"  type="button" value="글쓰기"/> 
 				</p>
 			</div>
 		</section>
